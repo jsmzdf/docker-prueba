@@ -21,8 +21,8 @@ services:
       # Montamos nuestra web desde fuera en el directorio web del contenedor
       - ./miweb/:/var/www/html
     expose:
-      - 80
+      - 84
     ports:
-      - 80:80
+      - 84:84
     links: 
       - miservicio_mysql
